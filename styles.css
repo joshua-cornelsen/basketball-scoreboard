@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+    background-image: url("uofm-basketball.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.home-title,
+.guest-title {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000;
+    color: #FFCB05;
+}
+
+#home-score,
+#guest-score {
+    background: #000;
+    font-size: 100px;
+    color: #FFCB05;
+    height: 110px;
+    width: 155px;
+    margin: 30px;
+    padding: 10px;
+    font-family: "Cursed Timer ULiL";
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    background-color: none;
+    padding: 5px;
+    font-family: "Cursed Timer ULiL";
+    cursor: pointer;
+    background: #000;
+    color: #FFCB05;
+    border: none;
+    margin: 0 7px;
+    border-radius: 10px;
+}
+
+.newGameBtn {
+    height: 50px;
+    width: 150px;
+    font-size: 1.50em;
+}
